@@ -1,0 +1,45 @@
+.home__container {
+    text-align: center;
+    padding:0 24px;
+}
+
+.home__profile {
+    width: 60px;
+    height: 60px;
+}
+
+.home__subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.home__list {
+    list-style: none;
+    padding: 0;
+}
+
+.home__bg {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.home__list-footer {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.home__img-footer {
+    width: 30px;
+    height: 30px;
+}
+
+@media(min-width: 768px) {
+    .home__container {
+        max-width: 600px;
+        margin: auto;
+    }
+}
