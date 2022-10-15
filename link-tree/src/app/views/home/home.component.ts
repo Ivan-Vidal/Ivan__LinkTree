@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AlertService } from './../../services/alert.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private alertService: AlertService) { }
 
   ngOnInit(): void {
   }
+
+ inKeeping() {
+  this.alertService.warning('Em Manutenção', 'Ainda estamos ajustando algumas coisas para consequir disponibilizar esse link')
+ }
+
 
 }

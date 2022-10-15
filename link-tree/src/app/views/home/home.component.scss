@@ -1,6 +1,7 @@
 .home__container {
     text-align: center;
     padding:0 24px;
+    flex: 1 0 auto;
 }
 
 .home__profile {
@@ -12,6 +13,14 @@
     font-weight: 400;
     font-size: 12px;
     opacity: .8;
+}
+
+.btn {
+    transition: all .4s;
+}
+
+.btn:hover {
+    border: 1px solid #6f42c1
 }
 
 .home__list {

@@ -1,19 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 html {
+    height: 100vh;
     background-size: cover;
     background-image: url('assets/imgs/background-galaxy.png');
     background-repeat: no-repeat;
 }
 
 html, body {
+    // height: 100%;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: aliceblue;
     font-family: 'Inter', sans-serif;
 }
 
 body {
-  background: transparent;
+    background: transparent;
 }
 
 img {
@@ -28,7 +31,7 @@ a {
 
 @media(min-width: 768px) {
     html {
-        height: 100vh;
+        // height: 100vh;
         background-size: cover;
         background-image: url('assets/imgs/background-galaxy-desk.png');
         background-repeat: no-repeat;

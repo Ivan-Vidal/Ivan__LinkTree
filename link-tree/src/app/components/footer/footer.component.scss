@@ -1,8 +1,10 @@
 .footer__title {
+    text-align: center;
+    width: 100%;
     font-weight: 400;
     font-size: 12px;
     opacity: .8;
     position: absolute;
     bottom: 5px;
-    
+    flex-shrink: 0;
 }
