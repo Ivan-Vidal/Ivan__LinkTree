@@ -53,3 +53,7 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .showFooter{  display: none ; } 
+  }
