@@ -12,9 +12,13 @@
     margin-top: 40px;
 }
 
+.home__content-img {
+    margin-bottom: 20px;
+}
+
 .home__profile {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -71,6 +75,10 @@
         margin-top: 40px;
         max-width: 600px;
         margin: auto;
+    }
+
+    .home__content-img {
+        margin-bottom: 40px;
     }
 }
 
