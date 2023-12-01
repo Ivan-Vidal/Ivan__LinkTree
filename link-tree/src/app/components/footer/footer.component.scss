@@ -1,10 +1,23 @@
 .footer__title {
     text-align: center;
-    width: 100%;
     font-weight: 400;
     font-size: 12px;
     opacity: .8;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     flex-shrink: 0;
 }
+
+@media(max-width: 768px) {
+    .footer__title {
+        position: relative;
+    }
+}
+
+@media(min-height: 726px) {
+    .footer__title {
+        position: absolute;
+    }
+  }
