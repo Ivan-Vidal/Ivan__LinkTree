@@ -1,19 +1,14 @@
-.home__container {   
-    text-align: center;
-    padding:40px 24px  0;
-    flex: 1 0 auto;
-    height: 100%;
-    position: relative;
-    background-size: cover;
-    background-image: url('/assets/imgs/background-galaxy.png');
-    background-repeat: no-repeat;
+.container {   
+padding: 0 24px;
 }
+
 .home__content {
     margin-top: 40px;
 }
 
-.home__content-img {
+header {
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .home__profile {
@@ -24,16 +19,30 @@
 
 .home__subtitle {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     opacity: .8;
 }
+ 
 
-.btn {
-    transition: all .4s;
+li a {
+    display: flex;
+    align-items: center;
+    background-color: #192133; /* Fundo dos itens */
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.btn:hover {
-    border: 1px solid #6f42c1
+li a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+li a span {
+    font-size: 1.2rem;
+    margin-left: 1rem;
 }
 
 .home__list {
@@ -57,6 +66,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 .home__img-footer {
     width: 30px;
     height: 30px;
@@ -64,10 +74,7 @@
 
 @media(min-width: 768px) {
     .home__container {
-        background-position: 100% 100%;
-        background-size: cover;
-        background-image: url('/assets/imgs/background-galaxy-desk.png');
-        background-repeat: no-repeat;
+       
         height: 100vh;
     }
 
@@ -81,10 +88,49 @@
         margin-bottom: 40px;
     }
 }
+ 
 
-@media(min-height: 726px) {
-    .home__container {   
-        height: 100vh;
 
-    }
-  }
+#footer {
+    margin-top: 36px;
+    padding-bottom: 10px;
+}
+
+
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contact__content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.contact__content-footer .social-links {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.contact__content-email {
+    margin-bottom: 20px;
+
+}
+
+.contact__content-email a {
+  color: #ffffff;
+
+}
+
+.social-links img {
+width: 24px;
+height: 24px;
+}

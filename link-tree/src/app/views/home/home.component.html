@@ -1,89 +1,68 @@
-<div class="home__container">
+<div class="container">
     <div class="home__content">
-        <header class=" mb-5">
+        <header class="mb-4 text-center">
             <div class="home__content-img">
                 <img class="home__profile" src="assets/icons/profile.jpeg" alt="Profile">
             </div>
 
-            <h1>
-                Ivan Vidal
-            </h1>
-            <div class="text-center ps-5 pe-5">
-                <span class="home__subtitle">
-                    Desenvolvedor Front end 
-                </span>
+            <h1 class="home__title">Ivan Vidal</h1>
+            <div class="text-center ps-3 pe-3">
+                <span class="home__subtitle">Desenvolvedor Front-end</span>
             </div>
-            
         </header>
+
         <div>
             <ul class="home__list">
-                <li class="mb-4 w-100">
-                    <a (click)="inKeeping()">
-                        <button class="btn btn-dark w-100 d-flex align-items-center">
-                            <div class="home__bg">
+                <li class="mb-3">
+                    <a href="https://www.ivanvidal.com.br">
+                            <div class="home__bg me-2">
                                 <img src="assets/icons/portfolio-icon.svg" alt="Portfolio">
                             </div>
                             <span>Portfolio</span>
-                         </button>
                     </a>
-                     
                 </li>
-                <li class="mb-4 w-100">
+                <li class="mb-3">
                     <a href="https://github.com/Ivan-Vidal">
-                        <button class="btn btn-dark w-100 d-flex align-items-center">
-                            <div class="home__bg">
+                            <div class="home__bg me-2">
                                 <img src="assets/icons/github-icon.svg" alt="GitHub">
                             </div>
                             <span>/Ivan-Vidal</span>
-                         </button>
                     </a>
-                     
                 </li>
-                <li class="mb-4 w-100">
+                <li class="mb-3">
                     <a href="https://www.linkedin.com/in/ivan-vidal-b7485a138/">
-                        <button class="btn btn-dark w-100 d-flex align-items-center">
-                            <img class="me-4" src="assets/icons/linkedin-icon.png" alt="LinkedIn">
+                            <img class="me-2" src="assets/icons/linkedin-icon.png" alt="LinkedIn">
                             <span>Ivan Vidal</span>
-                         </button>
                     </a>
-                    
                 </li>
-                <li class="mb-4 w-100">
+                <li class="mb-3">
                     <a href="https://discord.com">
-                        <button class="btn btn-dark w-100 d-flex align-items-center">
-                            <img class="me-4" src="assets/icons/discord-icon.png" alt="Discord">
+                            <img class="me-2" src="assets/icons/discord-icon.png" alt="Discord">
                             <span>ivanvidal9011</span>
-                        </button>
-                    </a>
-                   
-                </li>
-            </ul>
-        </div>
-        <div>
-            <ul class="home__list-footer d-flex justify-content-between ps-5 pe-5">
-                <li>
-                    <a href="https://api.whatsapp.com/send?L=pt_BR&phone=5511968344811&text=Olá Como vai?">
-                        <img class="home__img-footer" src="assets/icons/whatssapp-icon.svg" alt="Whatssapp">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJZdkbncDQgMBMWnlSNGtlHDBjxKqJxdqBDBcFKVhHDLTZcGXVVqTxlvzgqCNnxHpNdtcSq">
-                        <img class="home__img-footer" src="assets/icons/gmail-icon.svg" alt="Gmail">
-         
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ivanvidal.dev/">
-                        <img class="home__img-footer" src="assets/icons/instagram-icon.svg" alt="Instagram">
-
                     </a>
                 </li>
             </ul>
-    
         </div>
+
+        <div class="contact__content-footer">
+            <div class="contact__content-email">
+                <a href="mailto:ivanvidal.dev&#64;gmail.com">ivanvidal.dev&#64;gmail.com</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Ivan-Vidal" target="_blank">
+                    <img src="assets/icons/icon-github.svg" alt="Github" />
+                </a>
+                <a href="https://www.linkedin.com/in/ivan-vidal-b7485a138/" target="_blank">
+                    <img class="home__content-icon" src="assets/icons/icon-linkedin.svg" alt="LinkedIn" />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5511968344811" target="_blank">
+                    <img src="assets/icons/icon-whatsapp.svg" alt="Whatsapp" />
+                </a>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="copyright">
+                Copyright &copy; 2025 - <strong>Vidal Dev Consultoria</strong>
+            </div>
+        </footer>
     </div>
-    <div class="showFooter">
-        <app-footer></app-footer>
-    </div>
-</div>
